@@ -1,0 +1,30 @@
+.Login button{
+ padding:3%;
+}
+
+.Login button:hover{
+    background-color:#ffffff;
+    color:#e4264f;
+}
+
+.Login{
+    color:#fff;
+}
+
+.Login div{
+        display: flex;
+        flex-direction: column;
+}
+
+div.Login{
+    align-self: center;
+    margin-right:1%;
+}
+
+.Login span{
+    margin-bottom:5%;
+}
+
+input.Login{
+    margin-bottom:2%;
+}

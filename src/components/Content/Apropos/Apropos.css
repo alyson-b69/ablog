@@ -1,0 +1,158 @@
+.apropos{
+    margin-top:120px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.apropos ul{
+    list-style:none;
+    padding:0;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.apropos h3{
+    color: #e4264f;
+}
+
+
+nav.nav-a-propos {
+    background:black;
+    color:#ffffff;
+    padding:10px;
+}
+
+nav.nav-a-propos a{
+    color:#ffffff;
+    text-decoration:none;
+    transition: all .8s ease-out;
+}
+
+nav.nav-a-propos a:hover{
+    color: #e4264f;
+}
+
+.nav-a-propos ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+/*HEADER */
+
+header{
+    text-align:center;
+}
+
+header img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+
+.bubble-text {
+    background:#e4264f; 
+    color:#fff; 
+    padding:7px 15px; 
+    border-radius:3px; 
+}
+
+/* Main */
+
+.apropos main{
+    display:grid;
+    grid-template-columns: 25% 1fr;
+    height:100%;
+    padding-bottom:1%;
+}
+
+
+
+
+.apropos aside {
+    text-align:center;
+    background-color:#000000;
+    color:#FFFFFF;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    grid-column: 1;
+}
+
+.apropos aside li{
+    margin-bottom:2%;
+}
+
+.apropos section {
+    grid-column: 2;
+    margin-left: 3%;
+    text-align:left;
+}
+
+.formation ul li h4{
+    display:inline-block;
+}
+
+
+
+/* Footer */
+
+.apropos footer{
+    border-top: solid 5px #f65454;
+    text-align:center;
+    margin-bottom:2%;
+    margin-top:auto;
+}
+
+.apropos footer ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.apropos footer a{
+    color:#000000;
+    transition: all .8s ease-out;
+}
+
+.apropos footer a:hover{
+    color: #e4264f;
+}
+
+.apropos footer .fa {
+    font-size:2em;
+}
+
+
+@media screen and (max-width:900px){
+
+    .apropos main{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .nav-a-propos ul{
+        flex-direction:column;
+        text-align:center;
+        padding-bottom:10%;
+    }
+
+    .nav-a-propos ul li{
+        margin-top:1%;
+        margin-bottom:1%;
+    }
+
+    .apropos aside {
+        text-align:justify;
+        background-color:#fff;
+        color:#000;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}

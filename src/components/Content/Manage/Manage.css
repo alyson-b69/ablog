@@ -1,0 +1,25 @@
+
+.tab-modif{
+    width: 100%;
+    font-size:0.9em;
+}
+
+.tab-modif td{
+    padding:1%;
+}
+
+.tab-modif tr:nth-child(even){
+    background-color:lightpink;
+}
+
+.modif-btn {
+    display:flex;
+    margin-bottom:2%;
+    justify-content:space-around;
+    margin-right:70%;
+}
+
+.modif-btn button{
+    padding:2%;
+    width:40%;
+}
